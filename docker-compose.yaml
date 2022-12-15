@@ -10,15 +10,13 @@ services:
     network_mode: host
     volumes:
     - ./mirai:/mirai
-  bot:
+  setup:
     build:
       context: .
-      dockerfile: _bot.Dockerfile
+      dockerfile: _setup.Dockerfile
     restart: always
     environment:
       LANG: "C.UTF-8"
     volumes:
       - ./bot:/bot
     network_mode: host
-    depends_on:
-      - mirai
