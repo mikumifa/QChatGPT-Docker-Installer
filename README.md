@@ -1,6 +1,6 @@
 # README
 
-# 项目地址[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT
+# 项目地址[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT)
 
 本项目旨在为原项目提供一个简单的 Docker 部署方式，方便大家使用。
 
