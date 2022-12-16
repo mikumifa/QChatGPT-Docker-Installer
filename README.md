@@ -70,7 +70,6 @@ chmod +x loadFile.sh && ./loadFile.sh
 
 将这个文件的内容修改为：
 ```
-setting.yml
 adapters:
   - ws
 debug: true
