@@ -50,7 +50,7 @@ chmod +x loadFile.sh && ./loadFile.sh
 
 `docker compose run --rm mirai`
 > 上面这一步，windows操作系统的可能会报错`error during connect: This error may indicate that the docker daemon is not running` 
-> 解决方式是到电脑docker的安装目录下面，有docker.exe的那个目录，运行`DockerCli.exe -SwitchDaemon`指令
+> 解决方式是CMD管理员模式`DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V`
 等待安装，并按照提示操作登录。(第一次失败的话就，`Ctrl + C`退出，再重来一次)
 
 具体见[4.登录QQ](https://yiri-mirai.wybxc.cc/tutorials/01/configuration)
