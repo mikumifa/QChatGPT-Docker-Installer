@@ -48,7 +48,7 @@ chmod +x loadFile.sh && ./loadFile.sh
 ```
 ## 3. 配置 启动mirai
 
-`docker compose run --rm mirai`
+`docker compose run -rm mirai`
 
 等待安装，并按照提示操作登录。(第一次失败的话就，`Ctrl + C`退出，再重来一次)
 
@@ -91,5 +91,5 @@ adapterSettings:
 `docker compose up -d` 将在后台启动。
 
 注意，只有在mirai执行成功的后，setup启动，不会处所，如果出错， `Ctrl + C`退出.
-先输入`docker compose run --d mirai`执行mirai
-再输入 `docker compose run --d setup` 执行机器人
+先输入`docker compose run -d mirai`执行mirai
+再输入 `docker compose run -d setup` 执行机器人
