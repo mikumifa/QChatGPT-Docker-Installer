@@ -84,7 +84,7 @@ adapterSettings:
     port: 8080
     reservedSyncId: -1
 ```
-
+`verifyKey`随便设置,只要和bot的`config.py`中的`verifyKey`一样即可
 ## 4. 启动
 
 `docker compose up ` 将在前台启动。
