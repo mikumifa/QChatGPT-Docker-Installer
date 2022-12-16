@@ -65,6 +65,26 @@ chmod +x loadFile.sh && ./loadFile.sh
 之后重新打开目录`bot`，根据`config-template.py`写一个`config.py`文件（`config.py`放在`bot`文件夹里面）
 配置详细见[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT)的`README`
 
+
+退出 mirai-console，在` mirai/config/net.mamoe.mirai-api-http` 文件夹中找到` setting.yml`，这是` mirai-api-http `的配置文件。
+
+将这个文件的内容修改为：
+```
+setting.yml
+adapters:
+  - ws
+debug: true
+enableVerify: true
+verifyKey: yirimirai
+singleMode: false
+cacheSize: 4096
+adapterSettings:
+  ws:
+    host: localhost
+    port: 8080
+    reservedSyncId: -1
+```
+
 ## 4. 启动
 
 `docker compose up ` 将在前台启动。
