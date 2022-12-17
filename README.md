@@ -88,10 +88,6 @@ adapterSettings:
 `verifyKey`随便设置,只要和bot的`config.py`中的`verifyKey`一样即可
 ## 4. 启动
 
-`docker compose up ` 将在前台启动。
-
-`docker compose up -d` 将在后台启动。
-
-注意，只有在mirai执行成功的后，setup启动才不会出错，如果出错， `Ctrl + C`退出.
 先输入`docker compose run -d mirai`执行mirai
 再输入 `docker compose run -d setup` 执行机器人(参数`-d`是后台运行的意思)
+>`docker container logs <docker compose run -d <程序>指令输入后，下面的ID>`
