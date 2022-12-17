@@ -60,6 +60,7 @@ chmod +x loadFile.sh && ./loadFile.sh
 `autologin add <机器人QQ号> <机器人密码>`(必要)
 
 `autologin setConfig <机器人QQ号> protocol ANDROID_PAD`(必要)
+>出现`mirai登录时提示版本过低：当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面`报错时候删除`mirai/bots`文件夹里面的数据
 
 成功后, `Ctrl + C` 退出。
 
