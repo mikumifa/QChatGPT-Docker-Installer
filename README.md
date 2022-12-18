@@ -153,7 +153,3 @@ read escape sequence
 root@docker-test:~#
 ```
 </details>
-
-
-
->`docker container logs <docker compose run -d <程序>指令输入后，下面的ID>`
