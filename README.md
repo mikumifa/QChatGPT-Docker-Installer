@@ -30,7 +30,7 @@ cd QChatGPT-Docker-Installer
 chmod +x loadFile.sh && ./loadFile.sh 
 ```
 
-- `windows`可以下载[ITXTech](https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.2/mcl-2.1.2.zip)和[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT)，把`requirements.txt`放入`bot`目录里面
+- `windows`可以下载[ITXTech](https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.2/mcl-2.1.2.zip)和[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT)
 
 最终效果如下，`bot`目录内是当前的[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT)项目里面的内容,`mirai`目录内是[ITXTech](https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.2/mcl-2.1.2.zip)下载后解压到`mirai`里面
 
