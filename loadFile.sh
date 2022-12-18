@@ -1,4 +1,4 @@
-!#bin/sh
+#! /bin/sh
 git clone https://gitee.com/mikumifa/QChatGPT
 mv QChatGPT bot
 cp -f requirements.txt bot/
