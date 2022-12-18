@@ -1,5 +1,0 @@
-colorlog
-func-timeout
-openai
-websockets 
-yiri-mirai
