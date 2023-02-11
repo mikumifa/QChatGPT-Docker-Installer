@@ -25,8 +25,8 @@ cd QChatGPT-Docker-Installer
 
 ### ii. 进行部署
 `bot`目录内是当前的[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT)项目里面的内容,`mirai`目录内是[ITXTech](https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.2/mcl-2.1.2.zip)下载后解压到`mirai`里面
-
 ```
+以最新的项目内容为准
 .
 ├── bot
 │   ├── config-template.py
