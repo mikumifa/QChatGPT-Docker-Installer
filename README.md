@@ -39,7 +39,6 @@ cd QChatGPT-Docker-Installer
 │   ├── sensitive.json
 │   └── tests
 ├── docker-compose.yaml
-├── loadFile.sh
 ├── mirai
 │   ├── LICENSE
 │   ├── mcl
