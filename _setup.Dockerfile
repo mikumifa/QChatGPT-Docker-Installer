@@ -2,7 +2,8 @@ FROM python:3.9-slim as builder
 ENV URL=https://gitee.com/mikumifa/QChatGPT/releases/download/1.0/QChatGPT-1.0.zip
 
 WORKDIR /bot
-RUN sed -i "s/deb.debian.org/mirrors.tencent.com/g" /etc/apt/sources.list\
+RUN sed -i "s/deb.debian.org/mirrors.tencent.com/g" /etc/apt/sources.list \
+    && sed -i 's|security.debian.org/debian-security|mirrors.tencent.com/debian-security|g' /etc/apt/sources.list \
     && apt-get clean \
     && apt-get update \
     && apt install unzip build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget git libbz2-dev -y \ 
