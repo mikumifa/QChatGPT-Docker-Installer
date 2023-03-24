@@ -1,4 +1,4 @@
-# README
+# 最新的部署方式可以去原项目
 
 ### 项目地址[RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT)
 
